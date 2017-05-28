@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Ordenamiento.h
+iostream
+-
+vector
+-
+
+/home/blaisese/Ordenamiento/src/Ordenamiento.cpp
+Ordenamiento.h
+/home/blaisese/Ordenamiento/src/Ordenamiento.h
+
+/home/blaisese/Ordenamiento/src/main.cpp
+Ordenamiento.h
+/home/blaisese/Ordenamiento/src/Ordenamiento.h
+
